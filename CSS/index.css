@@ -61,7 +61,7 @@ font-family: 'Reenie Beanie', sans-serif;
 
 	transform: translateY(0px);
 	transition: 0.3s linear;
-	background:  #b1afaf;
+	background:  #E56E94;
 	border-radius: 5px;
   	position: relative;
   	overflow: hidden;
@@ -75,7 +75,7 @@ font-family: 'Reenie Beanie', sans-serif;
 }
 
 .btn:hover{transform: translateY(-6px);
-	background: #494949;}
+	background: #9d2121;}
 
 .btn span {
 	font-family: "Quicksand", sans-serif;
