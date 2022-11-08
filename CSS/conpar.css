@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Reenie+Beanie');
+
+body {
+  background-image: url('../Images/bkgrd.jpg');
+}
+
+.container  {
+  position: absolute;
+  left: 55%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 800px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Reenie Beanie', sans-serif;
+}
+
+.headimg {
+  height: 150px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.action {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+  }
+  .action span {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2em;
+    transition: .3s ease-in-out;
+  }

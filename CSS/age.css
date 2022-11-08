@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Raleway|Reenie+Beanie');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+body {
+  background-image: url('../Images/bkgrd.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.para {
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 50px;
+  /* font-weight: bold; */
+  position: fixed;
+  top: 100px;
+  left: 30%;
+}
+
+.para2 {
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 35px;
+  font-style: italic;
+  position: fixed;
+  top: 150px;
+  left: 30%;
+}
+
+
+.action {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+.action span {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a13dea;
+  font-size: 2em;
+  transition: .3s ease-in-out;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+.container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+.container .card:nth-child(1) .box .content a {
+  background: #2196f3;
+}
+
+.container .youngc .card .box .content a {
+  background: #e91e63;
+}
+
+.container .oldc .card .box .content a {
+  background: #23c186;
+}
+
+.container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.container .baby .card .box {
+  background-image: url('../Images/babyd.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+
+.container .youngc .card .box {
+  background-image: url('../Images/childd.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+
+.container .oldc .card .box {
+  background-image: url('../Images/oldc.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+
+
+
+.container .card .box:hover {
+  transform: translateY(-50px);
+}
+
+.container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.container .card .box .content h3 {
+  font-size: 1.8rem;
+  color: black;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 270px;
+}
+
+.container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.container .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
