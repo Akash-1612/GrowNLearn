@@ -1,15 +1,19 @@
- function cartoon() {
-     location.replace('cartoon.html');
- }
- function music() {
+function cartoon() {
+    location.replace('cartoon.html');
+}
+
+function music() {
     location.replace('music.html');
 }
-function book() {
+
+function learning() {
     location.replace('learning.html');
 }
+
 function somnew() {
     location.replace('somnew.html');
 }
+
 function back() {
-    location.replace('age.html');
+    location.replace('younger.html');
 }
